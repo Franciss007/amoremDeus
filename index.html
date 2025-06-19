@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mensagens Flutuantes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <h2>Que o nosso amor reflita o amor que Deus nos ensinou.</h2>
+
+      <div class="message-box" id="messageBox">
+        <h3 id="verse-title">Título</h3>
+        <p id="verse-text">Texto do versículo...</p>
+        <p id="summary" style="font-size: 0.9rem; color: gray;">Versículo 1 de X</p>
+
+        <!-- Indicador de progresso -->
+        <div class="progress-dots" id="progressDots"></div>
+
+        <!-- Botões -->
+        <div class="buttons">
+          <button onclick="previousMessage()">⬅ Anterior</button>
+          <button onclick="nextMessage()">Próximo ➡</button>
+          <button class="share-button" onclick="shareVerse()">📤 Compartilhar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="heart-container"></div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
