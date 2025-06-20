@@ -13,7 +13,11 @@ const verses = [
   },
   {
     title: "Eclesiastes 4:9-10",
-    text: "É melhor ter companhia do que estar sozinho, porque maior é a recompensa do trabalho de duas pessoas. Se um cair, o amigo pode ajudá-lo a levantar-se."
+    text: "É melhor ter companhia do que estar sozinho, porque maior é a recompensa do trabalho de duas pessoas. Se um cair, o seu companheiro pode ajudá-lo a levantar-se."
+  },
+  {
+    title: "Eclesiastes 4:11-12",
+    text: "Também, se dois dormirem juntos, eles se aquentarão; mas um só, como se aquentará? E, se alguém prevalecer contra um, os dois lhe resistirão; e o cordão de três dobras não se quebra tão depressa."
   },
   {
     title: "Colossenses 3:14",
@@ -103,6 +107,8 @@ function shareVerse() {
     });
   }
 }
+
+//funcao para chamar os coracoes
 function createHearts() {
   const container = document.querySelector(".heart-container");
 
